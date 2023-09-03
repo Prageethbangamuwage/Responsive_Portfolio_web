@@ -102,11 +102,11 @@ class Home extends StatelessWidget {
               SizedBox(
                 height: 50.0,
               ),
-              Sponsors(),
+              //Sponsors(),
               SizedBox(
                 height: 50.0,
               ),
-              TestimonialWidget(),
+             // TestimonialWidget(),
               Footer(),
             ],
           ),

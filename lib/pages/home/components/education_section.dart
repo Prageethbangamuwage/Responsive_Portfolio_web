@@ -9,27 +9,15 @@ import 'package:web_portfolio/utils/screen_helper.dart';
 final List<Education> educationList = [
   Education(
     description:
-        "This is a sample education and details about it is stated below. This is a sample education and details about it is stated below",
-    linkName: "www.flutterpanda.com",
-    period: "2019 - PRESENT",
+        "BSc (Hons) in Computing & Information Systems -Sabaragamuwa University of Sri Lanka (3rd Year Undergraduate)",
+    linkName: "",
+    period: "2023 - PRESENT",
   ),
   Education(
     description:
-        "This is a sample education and details about it is stated below.This is a sample education and details about it is stated below",
-    linkName: "www.flutterpanda.com",
-    period: "2018 - 2019",
-  ),
-  Education(
-    description:
-        "This is a sample education and details about it is stated below. This is a sample education and details about it is stated below",
-    linkName: "www.flutterpanda.com",
+        "GCE Advanced Level Examination Deiyandara National School\nPhysics, Combined Mathematics, ICT",
+    linkName: "",
     period: "2017 - 2018",
-  ),
-  Education(
-    description:
-        "This is a sample education and details about it is stated below. This is a sample education and details about it is stated below",
-    linkName: "www.flutterpanda.com",
-    period: "2016 - 2017",
   ),
 ];
 
@@ -72,7 +60,7 @@ class EducationSection extends StatelessWidget {
                 Container(
                   constraints: BoxConstraints(maxWidth: 400.0),
                   child: Text(
-                    "A full stack all round developer that does all the job he needs to do at all times. Actually this is a false statement",
+                    "",
                     style: TextStyle(
                       color: Colors.white,
                       height: 1.5,

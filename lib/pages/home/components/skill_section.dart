@@ -8,23 +8,23 @@ import 'package:web_portfolio/utils/screen_helper.dart';
 List<Skill> skills = [
   Skill(
     skill: "Dart",
-    percentage: 62,
+    percentage: "dart",
   ),
   Skill(
-    skill: "Javascript",
-    percentage: 80,
+    skill: "java",
+    percentage: "HTML",
   ),
   Skill(
     skill: "PHP",
-    percentage: 78,
+    percentage: "Java",
   ),
   Skill(
-    skill: "Python",
-    percentage: 90,
+    skill: "HTML",
+    percentage: "PHP",
   ),
   Skill(
-    skill: "GoLang",
-    percentage: 40,
+    skill: "CSS",
+    percentage: "CSS",
   ),
 ];
 
@@ -55,7 +55,7 @@ class SkillSection extends StatelessWidget {
                 Expanded(
                   flex: ScreenHelper.isMobile(context) ? 0 : 2,
                   child: Image.asset(
-                    "assets/person_small.png",
+                    "assets/personN.png",
                     width: 300.0,
                   ),
                 ),
@@ -98,31 +98,31 @@ class SkillSection extends StatelessWidget {
                                 margin: EdgeInsets.only(bottom: 15.0),
                                 child: Row(
                                   children: [
-                                    Expanded(
-                                      flex: skill.percentage,
-                                      child: Container(
-                                        padding: EdgeInsets.only(left: 10.0),
-                                        alignment: Alignment.centerLeft,
-                                        height: 38.0,
-                                        child: Text(skill.skill),
-                                        color: Colors.white,
-                                      ),
-                                    ),
+                                    // Expanded(
+                                    //   flex: skill.percentage,
+                                    //   child: Container(
+                                    //     padding: EdgeInsets.only(left: 10.0),
+                                    //     alignment: Alignment.centerLeft,
+                                    //     height: 38.0,
+                                    //     child: Text(skill.skill),
+                                    //     color: Colors.white,
+                                    //   ),
+                                    // ),
                                     SizedBox(
                                       width: 10.0,
                                     ),
-                                    Expanded(
-                                      // remaining (blank part)
-                                      flex: 100 - skill.percentage,
-                                      child: Divider(
-                                        color: Colors.white,
-                                      ),
-                                    ),
+                                    // Expanded(
+                                    //   // remaining (blank part)
+                                    //   flex: 100 - skill.percentage,
+                                    //   child: Divider(
+                                    //     color: Colors.white,
+                                    //   ),
+                                    // ),
                                     SizedBox(
                                       width: 10.0,
                                     ),
                                     Text(
-                                      "${skill.percentage}%",
+                                      "${skill.percentage}",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 16.0,
